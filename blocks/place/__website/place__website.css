@@ -1,25 +1,32 @@
-.place__website{
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
+.place__website {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 }
-.place__website_url-heading{
-    font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 12px;
-letter-spacing: 2px;
-color: #AAAAAA;
-
+.place__website_url-heading {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 2px;
+  color: #aaaaaa;
 }
-.place__website_link{
-    font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 22px;
-text-decoration-line: underline;
-color: #FFFFFF;
-
+.place__website_link {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: #ffffff;
+}
+@media screen and (max-width: 720px) {
+  .place__website {
+    width: 288px;
+    margin: 0 auto;
+  }
+}
+.place__website_link:hover{
+  opacity:0.8;
 }
