@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: end;
 }
-.place__website_url-heading {
+.website__url-heading {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -12,7 +12,7 @@
   letter-spacing: 2px;
   color: #aaaaaa;
 }
-.place__website_link {
+.website__link {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -22,11 +22,11 @@
   color: #ffffff;
 }
 @media screen and (max-width: 720px) {
-  .place__website {
+  .website {
     width: 288px;
     margin: 0 auto;
   }
 }
-.place__website_link:hover {
+.website__link:hover {
   opacity: 0.8;
 }
