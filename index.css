@@ -15,7 +15,7 @@
 
 @import url(./blocks/footer/footer.css);
 
-@import url(./fonts/Inter\ Web/Inter.css);
+@import url(./fonts/inter.css);
 .page{
     margin: auto;
     background-color: rgba(42, 44, 47, 1);
