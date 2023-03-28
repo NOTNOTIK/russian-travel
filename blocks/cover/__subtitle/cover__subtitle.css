@@ -6,24 +6,27 @@
   line-height: 22px;
   text-align: center;
   color: #ffffff;
-  margin: 0 412px 245px;
+  margin: 0 auto 245px;
   position: relative;
   z-index: 1;
+  max-width: 360px;
 }
 @media screen and (max-width: 1279px) {
   .cover__subtitle {
-    margin: 0px 332px 195px;
+    
+    margin-bottom: 195px;
   }
 }
 @media screen and (max-width: 1023px) {
   .cover__subtitle {
-    margin: 0px 204px 115px;
+    margin-bottom: 115px;
   }
 }
 @media screen and (max-width: 720px) {
   .cover__subtitle {
     font-size: 14px;
     line-height: 16px;
-    margin: 0 30px 33px;
+    margin-bottom: 33px;
+    max-width: 288px;
   }
 }

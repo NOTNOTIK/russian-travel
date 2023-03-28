@@ -6,18 +6,20 @@
   line-height: 76px;
   text-align: center;
   color: #ffffff;
-  margin: 245px 312px 32px;
+  display: flex;
+  max-width: 560px;
   position: relative;
   z-index: 1;
+  margin: 245px auto 32px;
 }
 @media screen and (max-width: 1279px) {
   .cover__title {
-    margin: 195px 232px 32px;
+    margin-top: 195px;
   }
 }
 @media screen and (max-width: 928px) {
   .cover__title {
-    margin: 115px 104px 32px;
+    margin-top: 115px;
   }
 }
 
@@ -25,6 +27,7 @@
   .cover__title {
     font-size: 32px;
     line-height: 35px;
-    margin: 33px 34px 16px;
+    margin-top: 33px;
+   
   }
 }
