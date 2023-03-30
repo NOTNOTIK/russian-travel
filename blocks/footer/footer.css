@@ -13,7 +13,6 @@
   .footer {
     max-width: 186px;
     margin: 64px 118px 24px 16px;
-    margin-left: 16px;
     flex-wrap: wrap;
     gap: 48px;
   }
